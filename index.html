@@ -25,19 +25,37 @@
             font-size: 3.5rem;
           }
         }
+
+        body, html {
+          height: 100%;
+        }
+
+        .bg {
+          /* The image used */
+          background-image: url("images/IMG_0413_mod.jpg");
+
+          /* Full height */
+          height: 100%;
+
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
       </style>
       <!-- Custom styles for this template -->
       <link href="css/cover.css" rel="stylesheet">
 
 
   </head>
-  <body class="text-center">
+  <body class="text-center bg">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">
       <h3 class="masthead-brand">LCNP</h3>
       <nav class="nav nav-masthead justify-content-center">
-        <!--<a class="nav-link active" href="#">Accueil</a>-->
+        <a class="nav-link active" href="#">Accueil</a>
         <a class="nav-link" href="#">À propos</a>
         <a class="nav-link" href="#">Équipe</a>
         <a class="nav-link" href="#">Contact</a>
@@ -46,8 +64,7 @@
   </header>
 
   <main role="main" class="inner cover">
-    
-    <img src="images/LCNP_CGCQ.jpg" class="mx-auto d-block img-fluid" alt="LCNP logo"/>
+    <img src="images/LCNP_CGCQ.jpg" class="mx-auto d-block img-fluid img-thumbnail" alt="LCNP logo"/>
     <!--<h1 class="cover-heading">LCNP</h1>
     <p class="lead">Laboratoire de Cartigraphie Numérique et de Photogrammétrie</p>-->
     <br/><br/>
@@ -58,7 +75,8 @@
 
   <footer class="mastfoot mt-auto">
     <div class="inner">
-      <p><a href="http://www.cgq-qgc.ca/">- Le Centre Géoscienfique de Québec -</a><br/>Un partenariat entre la  <a href="https://www.rncan.gc.ca/science-donnees/centres-de-recherche-laboratoire/la-commission-geologique-du-canada/17101">Commission géologique du Canada (CGC)</a> et l'<a href="http://inrs.ca">Institut national de la recherche scientifique (INRS)</a>.</p>
+      <p><strong><a href="http://www.cgq-qgc.ca/" style=" text-shadow: 2px 2px 4px #000000;">- Le Centre Géoscienfique de Québec -</a></strong>
+        <!--<br/>Un partenariat entre la  <a href="https://www.rncan.gc.ca/science-donnees/centres-de-recherche-laboratoire/la-commission-geologique-du-canada/17101">Commission géologique du Canada (CGC)</a> et l'<a href="http://inrs.ca">Institut national de la recherche scientifique (INRS)</a>.</p>-->
       <!--<p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
     </div>
   </footer>
